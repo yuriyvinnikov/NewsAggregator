@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReader\\RSSFeedReader.csproj",
-      "projectName": "RSSFeedReader",
-      "projectPath": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReader\\RSSFeedReader.csproj",
+      "projectUniqueName": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReaderApi\\RSSFeedReaderApi.csproj",
+      "projectName": "RSSFeedReaderApi",
+      "projectPath": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReaderApi\\RSSFeedReaderApi.csproj",
       "packagesPath": "C:\\Users\\Yuriy Vinnikov\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReader\\obj\\",
+      "outputPath": "E:\\Projects\\NewsAggregator\\NewsAggregator\\RSSFeedReaderApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yuriy Vinnikov\\AppData\\Roaming\\NuGet\\NuGet.Config",

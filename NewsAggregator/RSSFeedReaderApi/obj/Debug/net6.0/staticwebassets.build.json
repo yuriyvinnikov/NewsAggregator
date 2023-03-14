@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "LFx2wJDcT+65zRagZ1TYXbohVVwDMHz9q9WDGcUj6iA=",
-  "Source": "RSSFeedReader",
-  "BasePath": "_content/RSSFeedReader",
+  "Hash": "AnnvtrbpR5elaNXSbjbN7CSwU8gXqGKVU0XZxGAapw4=",
+  "Source": "RSSFeedReaderApi",
+  "BasePath": "_content/RSSFeedReaderApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

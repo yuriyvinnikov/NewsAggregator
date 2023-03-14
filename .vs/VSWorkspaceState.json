@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NewsAggregator",
+    "\\NewsAggregator\\RSSFeedReader"
   ],
-  "SelectedNode": "\\E:\\Projects\\NewsAggregator",
+  "SelectedNode": "\\NewsAggregator\\RSSFeedReader\\RSSFeedReader.csproj",
   "PreviewInSolutionExplorer": false
 }
