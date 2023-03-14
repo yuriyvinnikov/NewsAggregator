@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSSFeedReaderApi", "RSSFeedReaderApi\RSSFeedReaderApi.csproj", "{63295B7B-0E60-4245-925B-6A05D3625C10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{95FB34A7-575E-43CE-9968-812C59FA5B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{63295B7B-0E60-4245-925B-6A05D3625C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63295B7B-0E60-4245-925B-6A05D3625C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63295B7B-0E60-4245-925B-6A05D3625C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FB34A7-575E-43CE-9968-812C59FA5B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FB34A7-575E-43CE-9968-812C59FA5B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FB34A7-575E-43CE-9968-812C59FA5B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FB34A7-575E-43CE-9968-812C59FA5B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
