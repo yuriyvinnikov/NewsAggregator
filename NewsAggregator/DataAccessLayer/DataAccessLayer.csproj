@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Entities\XmlNews.cs" />
+    <Compile Remove="RepositoriesContracts\IXmlNewsRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EFCore" Version="1.1.2" />
   </ItemGroup>
 
