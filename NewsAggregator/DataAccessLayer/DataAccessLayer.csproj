@@ -1,18 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Entities\XmlNews.cs" />
-    <Compile Remove="RepositoriesContracts\IXmlNewsRepository.cs" />
-  </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="EFCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
   </ItemGroup>
 
 </Project>
