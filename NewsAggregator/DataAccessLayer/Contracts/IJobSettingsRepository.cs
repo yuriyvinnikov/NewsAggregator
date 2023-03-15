@@ -1,6 +1,6 @@
 ﻿using DataAccessLayer.Entities;
 
-namespace DataAccessLayer.RepositoriesContracts
+namespace DataAccessLayer.Contracts
 {
     public interface IJobSettingsRepository : IRepository<JobSettings>
     {

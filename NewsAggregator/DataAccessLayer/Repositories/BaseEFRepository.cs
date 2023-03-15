@@ -1,5 +1,5 @@
 ﻿using DataAccessLayer.Entities;
-using DataAccessLayer.RepositoriesContracts;
+using DataAccessLayer.Contracts;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Repositories
