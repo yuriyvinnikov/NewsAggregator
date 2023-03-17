@@ -10,5 +10,5 @@ public class JobSettings : BaseEntity
 
 
     public int NewsAgencyRssFeedId { get; set; }
-    public virtual NewsAgencyRssFeed NewsAgency { get; set; }
+    public virtual NewsAgencyRssFeed NewsAgencyRssFeed { get; set; }
 }

@@ -12,7 +12,12 @@ public class NewsAgencyConfiguration : IEntityTypeConfiguration<NewsAgencyRssFee
 
         builder
             .HasOne(x => x.JobSettings)
-            .WithOne(x => x.NewsAgency)
-            .HasForeignKey<JobSettings>(x => x.NewsAgencyId);
+            .WithOne(x => x.NewsAgencyRssFeed)
+            .HasForeignKey<JobSettings>(x => x.NewsAgencyRssFeedId);
+
+        builder
+            .HasOne(x => x.NewsStorageMetaData)
+            .WithOne(x => x.NewsAgencyRssFeed)
+            .HasForeignKey<NewsStorageMetaData>(x => x.NewsAgencyRssFeedId);
     }
 }

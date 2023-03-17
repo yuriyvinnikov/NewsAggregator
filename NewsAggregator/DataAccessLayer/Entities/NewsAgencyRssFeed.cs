@@ -6,4 +6,7 @@ public class NewsAgencyRssFeed : BaseEntity
 
     public int JobSettingsId { get; set; }
     public virtual JobSettings JobSettings { get; set; }
+
+    public int NewsStorageMetaDataId { get; set; }
+    public virtual NewsStorageMetaData NewsStorageMetaData { get; set; }
 }
