@@ -9,6 +9,6 @@ public class JobSettings : BaseEntity
     public bool StartAutomatically { get; set; }
 
 
-    public int NewsAgencyId { get; set; }
-    public virtual NewsAgency NewsAgency { get; set; }
+    public int NewsAgencyRssFeedId { get; set; }
+    public virtual NewsAgencyRssFeed NewsAgency { get; set; }
 }

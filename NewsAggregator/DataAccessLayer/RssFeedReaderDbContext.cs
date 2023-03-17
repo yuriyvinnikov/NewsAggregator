@@ -11,7 +11,7 @@ public class RssFeedReaderDbContext : DbContext
     {
     }
 
-    public DbSet<NewsAgency> NewsAgencies { get; set; }
+    public DbSet<NewsAgencyRssFeed> NewsAgencies { get; set; }
     public DbSet<JobSettings> JobSettings { get; set; }
 
 

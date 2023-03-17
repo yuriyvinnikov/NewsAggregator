@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DataAccessLayer.EntitiesConfig;
 
-public class NewsAgencyConfiguration : IEntityTypeConfiguration<NewsAgency>
+public class NewsAgencyConfiguration : IEntityTypeConfiguration<NewsAgencyRssFeed>
 {
-    public void Configure(EntityTypeBuilder<NewsAgency> builder)
+    public void Configure(EntityTypeBuilder<NewsAgencyRssFeed> builder)
     {
         builder.Property(x => x.Name).IsRequired();
 
