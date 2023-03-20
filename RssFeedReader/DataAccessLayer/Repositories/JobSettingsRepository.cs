@@ -1,7 +1,7 @@
-﻿using DataAccessLayer.Entities;
-using DataAccessLayer.Contracts;
+﻿using RssFeedReader.DataAccessLayer.Entities;
+using RssFeedReader.DataAccessLayer.Contracts;
 
-namespace DataAccessLayer.Repositories
+namespace RssFeedReader.DataAccessLayer.Repositories
 {
     public class JobSettingsRepository : BaseEFRepository<JobSettings>, IJobSettingsRepository
     {

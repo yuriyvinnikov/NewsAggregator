@@ -1,4 +1,4 @@
-﻿namespace DataAccessLayer.Contracts
+﻿namespace RssFeedReader.DataAccessLayer.Contracts
 {
     public abstract class DbConfiguration
     {

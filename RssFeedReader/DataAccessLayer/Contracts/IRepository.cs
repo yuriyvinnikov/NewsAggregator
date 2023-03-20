@@ -1,7 +1,7 @@
-﻿using DataAccessLayer.Entities;
+﻿using RssFeedReader.DataAccessLayer.Entities;
 using System.Linq.Expressions;
 
-namespace DataAccessLayer.Contracts
+namespace RssFeedReader.DataAccessLayer.Contracts
 {
     public interface IRepository<T> where T : BaseEntity
     {

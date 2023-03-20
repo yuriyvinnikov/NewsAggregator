@@ -1,8 +1,8 @@
-﻿using DataAccessLayer.Entities;
+﻿using RssFeedReader.DataAccessLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DataAccessLayer.EntitiesConfig;
+namespace RssFeedReader.DataAccessLayer.EntitiesConfig;
 
 public class NewsAgencyConfiguration : IEntityTypeConfiguration<NewsAgencyRssFeed>
 {

@@ -1,4 +1,4 @@
-namespace RSSFeedReader
+namespace RssFeedReader.Api
 {
     public class Program
     {

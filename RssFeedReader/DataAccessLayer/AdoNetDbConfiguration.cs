@@ -1,6 +1,6 @@
-﻿using DataAccessLayer.Contracts;
+﻿using RssFeedReader.DataAccessLayer.Contracts;
 
-namespace DataAccessLayer
+namespace RssFeedReader.DataAccessLayer
 {
     public class AdoNetDbConfiguration : DbConfiguration
     {

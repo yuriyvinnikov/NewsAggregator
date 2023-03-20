@@ -1,8 +1,8 @@
-﻿using DataAccessLayer.Entities;
-using DataAccessLayer.EntitiesConfig;
+﻿using RssFeedReader.DataAccessLayer.Entities;
+using RssFeedReader.DataAccessLayer.EntitiesConfig;
 using Microsoft.EntityFrameworkCore;
 
-namespace DataAccessLayer;
+namespace RssFeedReader.DataAccessLayer;
 
 public class RssFeedReaderDbContext : DbContext
 {

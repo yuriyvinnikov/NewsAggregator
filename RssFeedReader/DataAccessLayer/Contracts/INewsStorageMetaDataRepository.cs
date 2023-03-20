@@ -1,6 +1,6 @@
-﻿using DataAccessLayer.Entities;
+﻿using RssFeedReader.DataAccessLayer.Entities;
 
-namespace DataAccessLayer.Contracts
+namespace RssFeedReader.DataAccessLayer.Contracts
 {
     internal interface INewsStorageMetaDataRepository : IRepository<NewsStorageMetaData>
     {

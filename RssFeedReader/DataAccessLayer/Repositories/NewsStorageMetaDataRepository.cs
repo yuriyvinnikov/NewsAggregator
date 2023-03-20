@@ -1,7 +1,7 @@
-﻿using DataAccessLayer.Contracts;
-using DataAccessLayer.Entities;
+﻿using RssFeedReader.DataAccessLayer.Contracts;
+using RssFeedReader.DataAccessLayer.Entities;
 
-namespace DataAccessLayer.Repositories
+namespace RssFeedReader.DataAccessLayer.Repositories
 {
     public class NewsStorageMetaDataRepository : BaseEFRepository<NewsStorageMetaData>, INewsStorageMetaDataRepository
     {

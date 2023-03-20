@@ -1,4 +1,4 @@
-﻿namespace DataAccessLayer.Entities
+﻿namespace RssFeedReader.DataAccessLayer.Entities
 {
     public class XmlNews : BaseEntity
     {
